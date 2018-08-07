@@ -10,7 +10,7 @@ function Bird() {
   
     this.show = function() {
       fill(255);
-      ellipse(this.x, this.y, 32, 32);
+      ellipse('shark.png', 20, 20, 20 ,20);
     }
   
     this.up = function() {
